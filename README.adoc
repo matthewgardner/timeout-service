@@ -1,0 +1,22 @@
+= timeoutservice
+
+This sample app was written as a POC for the idea of a simple gateway for microservices. I know SpringBoot has a better (more thought out) solution. 
+
+But I wanted to play with annotations, ExecutorService, etc
+
+== Quick start
+
+Build using:
+
+[source,bash]
+----
+mvn clean install
+----
+
+Run using:
+
+[source,bash]
+----
+mvn exec:java
+----
+
